@@ -1,0 +1,1 @@
+def histogram(n):		for i in n: print '*'*int(i)histogram([4,9,7,8])

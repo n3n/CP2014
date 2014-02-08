@@ -1,0 +1,1 @@
+print sum([len(bin(int(i))[2:])-1 for i in raw_input().split()])

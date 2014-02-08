@@ -1,0 +1,1 @@
+mInput = raw_input()message = ''for i in range(len(mInput)):	if mInput[i] in ['a','e','i','o','u','A','E','I','O','U'] and i % 2 == 0:		message += 'A'	elif mInput[i] in ['a','e','i','o','u','A','E','I','O','U'] and i % 2 == 1:		message += 'a'	else:		message += mInput[i]print message

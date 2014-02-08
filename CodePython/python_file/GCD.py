@@ -1,0 +1,1 @@
+num1, num2 = input(), input()i = 1while i <= num1 or i <= num2:	if (num1 % 2 == 0 and num2 % 2 == 0) and (num1 % i == 0 and num2 % i == 0):		n1 = i		#print n1,i		i += 2		#print 'Come in',i#print iprint n1

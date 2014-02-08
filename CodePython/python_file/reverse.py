@@ -1,0 +1,1 @@
+def reverse(message):	length = len(message)-1	i = 0	string = ''	while i <= length:		string = string + message[length]		length -= 1	return stringprint reverse("I am FallenGo FuckYou!!!")

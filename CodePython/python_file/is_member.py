@@ -1,0 +1,1 @@
+def is_member(x,alist):	for i in alist:		if x == i:			return 'True'	return "can't found anything"print is_member('Hello',['FallenGo','Hello'])print is_member('YahHoo!',['FallenGo','Hello'])

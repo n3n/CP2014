@@ -1,0 +1,1 @@
+mirror = raw_input()opposite = ""for i in range(len(mirror)):	if mirror[i] == ')':		opposite += '('	else:		opposite += ')'print opposite[::-1]		

@@ -1,0 +1,1 @@
+n = input()import mathimport timealist = []#mine = time.time()m = 0for j in xrange(n):	num = input()	#mine = time.time()	for i in xrange(1,num,int(math.sqrt(m+1))):		if num % i == 0:			print "# I =",i			alist.append(i)		m += i	print sum(alist)	alist = []	m = 0	#print time.time() - mine

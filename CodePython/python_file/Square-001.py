@@ -1,0 +1,1 @@
+x,y = input(),input()for i in range(x): print '*'*y

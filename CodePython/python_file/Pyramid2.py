@@ -1,0 +1,1 @@
+i = input()for n in range(i):	if n == 0:		print ' ' * (i-n-1) + '1' 	else:		print ' '*(i-n-1) + '1'+'0'*((2*n)-1)+'1'

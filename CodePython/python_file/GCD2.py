@@ -1,0 +1,1 @@
+num1, num2 = input(),input()while num1:	num = num1	num1 = num2 % num1	num2 = num	print num2

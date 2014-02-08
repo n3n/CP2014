@@ -1,0 +1,1 @@
+sum, count = 0,0while True:	i = input()	if i == -1:		print (sum)/count		break	sum += i	count += 1
